@@ -1294,35 +1294,7 @@ function PallyPower:UpdateRoster()
 				if tmp.subgroup < 6 or not skip then
 					if smartpets and isPet then
 						local pclass = select(2, UnitClass(unitid))
-						local family = UnitCreatureFamily(unitid)
-						
-						if pclass == "WARRIOR" then -- hunter pets
-							tmp.class = pclass
-						elseif pclass == "ROGUE" then -- dk ghoul
-							tmp.class = pclass
-						elseif pclass == "MAGE" then -- water elemental, imp
-							if family == L["PET_IMP"] then
-								tmp.class = "WARLOCK"
-							else
-								tmp.class = pclass
-							end
-						elseif pclass == "PALADIN" then -- other warlock pets
-							if family == L["PET_FELHUNTER"] or family == L["PET_SUCCUBUS"] then
-								tmp.class = "WARLOCK"
-							else
-								tmp.class = "WARRIOR"
-							end
-						end
-						
---						if family then
---							if family == L["PET_GHOUL"] then
---								tmp.class = "ROGUE"
---							elseif family == L["PET_IMP"] or family == L["PET_FELHUNTER"] or family == L["PET_SUCCUBUS"] then
---								tmp.class = "WARLOCK"
---							else
---								tmp.class = "WARRIOR"
---							end
---						end
+						tmp.class = pclass
 					end
 				
 					--PallyPower:Print(tmp.name, tmp.class, tmp.rank, tmp.subgroup)		
