@@ -1,4 +1,4 @@
-PallyPower Improved forked from https://github.com/NoM0Re/PallyPower-Improved-3.3.5 with additional fixes to work around ChromieCraft bugs regarding pet buffs.
+PallyPower that tries to workaround the weirdness with pet blessings on Chromiecraft. Forked from NoM0Re's "PallyPower Improved". https://github.com/NoM0Re/PallyPower-Improved-3.3.5
 <details>
 # PallyPower-Improved-3.3.5
 
