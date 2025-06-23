@@ -1,3 +1,5 @@
+PallyPower Improved forked from https://github.com/NoM0Re/PallyPower-Improved-3.3.5 with additional fixes to work around ChromieCraft bugs regarding pet buffs.
+<details>
 # PallyPower-Improved-3.3.5
 
 ![PallyPower Example](https://github.com/NoM0Re/PallyPower-Improved-3.3.5/blob/main/PallyPower_Flash.gif)<br/><br/>
@@ -45,3 +47,4 @@ A designated player for each class will be determined before combat, if the play
 1. [Download here](https://github.com/NoM0Re/PallyPower-Improved-3.3.5/archive/refs/heads/main.zip)<br/><br/>
 2. Unzip and take folder **PallyPower** (not the PallyPower-Improved-3.3.5-main)<br/><br/>
 3. Put it in your WoW/Interface/Addons folder<br/><br/><br/>
+</details>
